@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grid"
+        android:text="Volver a Jugar"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.034" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:columnCount="6"
+            android:orientation="horizontal"
+            android:rowCount="6"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+            <!-- Row 1 -->
+            <EditText
+                android:id="@+id/letra00"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra01"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra02"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra03"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra04"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra05"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+            <!-- Row 2 -->
+            <EditText
+                android:id="@+id/letra10"
+                android:layout_height="40dp"
+
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra11"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra12"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra13"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra14"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra15"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+            <!-- Row 3 -->
+            <EditText
+                android:id="@+id/letra20"
+                android:layout_height="40dp"
+
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra21"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra22"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra23"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra24"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra25"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+            <!-- Row 4 -->
+            <EditText
+                android:id="@+id/letra30"
+                android:layout_height="40dp"
+
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra31"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra32"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra33"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra34"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra35"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+            <!-- Row 5 -->
+            <EditText
+                android:id="@+id/letra40"
+                android:layout_height="40dp"
+
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra41"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra42"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra43"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra44"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra45"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+            <!-- Row 6 -->
+            <EditText
+                android:id="@+id/letra50"
+                android:layout_height="40dp"
+
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra51"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra52"
+                android:layout_height="39dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra53"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra54"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+            <EditText
+                android:id="@+id/letra55"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="3dp"
+                android:background="@color/grey_light"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"></EditText>
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="352dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="4dp"
+        android:text="Juega al Wordle"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grid"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="408dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resetButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
