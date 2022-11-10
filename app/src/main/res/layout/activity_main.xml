@@ -44,10 +44,12 @@
             <!-- Row 1 -->
             <EditText
                 android:id="@+id/letra00"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
                 android:background="@color/grey_light"
+                android:focusable="true"
                 android:inputType="textCapCharacters"
                 android:maxLength="1"
                 android:textAlignment="center"
@@ -57,10 +59,12 @@
 
             <EditText
                 android:id="@+id/letra01"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
                 android:background="@color/grey_light"
+                android:focusable="true"
                 android:inputType="textCapCharacters"
                 android:maxLength="1"
                 android:textAlignment="center"
@@ -70,10 +74,12 @@
 
             <EditText
                 android:id="@+id/letra02"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
                 android:background="@color/grey_light"
+                android:focusable="true"
                 android:inputType="textCapCharacters"
                 android:maxLength="1"
                 android:textAlignment="center"
@@ -83,10 +89,12 @@
 
             <EditText
                 android:id="@+id/letra03"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
                 android:background="@color/grey_light"
+                android:focusable="true"
                 android:inputType="textCapCharacters"
                 android:maxLength="1"
                 android:textAlignment="center"
@@ -96,10 +104,12 @@
 
             <EditText
                 android:id="@+id/letra04"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
                 android:background="@color/grey_light"
+                android:focusable="true"
                 android:inputType="textCapCharacters"
                 android:maxLength="1"
                 android:textAlignment="center"
@@ -109,10 +119,12 @@
 
             <EditText
                 android:id="@+id/letra05"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
                 android:background="@color/grey_light"
+                android:focusable="true"
                 android:inputType="textCapCharacters"
                 android:maxLength="1"
                 android:textAlignment="center"
@@ -122,6 +134,7 @@
             <!-- Row 2 -->
             <EditText
                 android:id="@+id/letra10"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
 
                 android:layout_columnWeight="1"
@@ -132,10 +145,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra11"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -145,10 +160,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra12"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -158,10 +175,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra13"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -171,10 +190,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra14"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -184,10 +205,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra15"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -197,10 +220,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
             <!-- Row 3 -->
             <EditText
                 android:id="@+id/letra20"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
 
                 android:layout_columnWeight="1"
@@ -211,10 +236,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra21"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -224,10 +251,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra22"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -237,10 +266,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra23"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -250,10 +281,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra24"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -263,10 +296,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra25"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -276,10 +311,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
             <!-- Row 4 -->
             <EditText
                 android:id="@+id/letra30"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
 
                 android:layout_columnWeight="1"
@@ -290,10 +327,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra31"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -303,10 +342,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra32"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -316,10 +357,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra33"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -329,10 +372,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra34"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -342,10 +387,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra35"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -355,10 +402,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
             <!-- Row 5 -->
             <EditText
                 android:id="@+id/letra40"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
 
                 android:layout_columnWeight="1"
@@ -369,10 +418,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra41"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -382,10 +433,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra42"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -395,10 +448,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra43"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -408,10 +463,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra44"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -421,10 +478,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra45"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -434,10 +493,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
             <!-- Row 6 -->
             <EditText
                 android:id="@+id/letra50"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
 
                 android:layout_columnWeight="1"
@@ -448,10 +509,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra51"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -461,11 +524,13 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra52"
-                android:layout_height="39dp"
+                android:layout_width="10sp"
+                android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
                 android:background="@color/grey_light"
@@ -474,10 +539,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra53"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -487,10 +554,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra54"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -500,10 +569,12 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
             <EditText
                 android:id="@+id/letra55"
+                android:layout_width="10sp"
                 android:layout_height="40dp"
                 android:layout_columnWeight="1"
                 android:layout_margin="3dp"
@@ -513,7 +584,8 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textSize="20sp"
-                android:textStyle="bold"></EditText>
+                android:textStyle="bold"
+                android:focusable="true"></EditText>
 
 
         </GridLayout>

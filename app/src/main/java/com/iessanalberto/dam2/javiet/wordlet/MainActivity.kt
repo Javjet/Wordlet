@@ -10,6 +10,7 @@ import android.os.Bundle
 import android.view.View
 import android.view.inputmethod.InputBinding
 import android.widget.EditText
+import androidx.core.widget.addTextChangedListener
 import com.iessanalberto.dam2.javiet.wordlet.databinding.ActivityMainBinding
 import kotlin.random.Random
 
@@ -22,8 +23,8 @@ class MainActivity : AppCompatActivity() {
         binding.resetButton.visibility=View.INVISIBLE
         binding.resultado.visibility=View.INVISIBLE
         setContentView(binding.root)
-        var letra:Char
-        var letraPalabra:Char
+        var letra:Char?
+        var letraPalabra:Char?
         var aumentar=true
         var contador=0;
         val palabras: List<String> = listOf("Hongos","Patata","Kotlin","Caiman")
@@ -39,6 +40,11 @@ class MainActivity : AppCompatActivity() {
         )
         //Visibilidad Inicial del grid
         for (i in listaLetras){
+            i.text.clear()
+            /*i.addTextChangedListener {
+                if(listaLetras.indexOf(i)+1<listaLetras.size)
+                listaLetras[listaLetras.indexOf(i)+1].isFocusedByDefault
+            }*/
             if(listaLetras.indexOf(i)>5)
                 i.visibility= View.INVISIBLE
         }
@@ -50,25 +56,32 @@ class MainActivity : AppCompatActivity() {
             binding.textView2.text=palabra
             if((contador)*6<listaLetras.size) {
                 for (i in 0..5) {
-                    letra=listaLetras[i+(contador)*6].text.toString().uppercase()[0]
+                    letra=null
                     letraPalabra=palabra[i]
-                    if(listaLetras[i].text.isEmpty()){
+                    if(listaLetras[i+(contador)*6].text.isEmpty()){
                         aumentar=false
+                    }else{
+                        letra=listaLetras[i+(contador)*6].text.toString().uppercase()[0]
                     }
-                    else if(letra == letraPalabra){
+                    if(aumentar&&letra == letraPalabra){
                         listaLetras[i+contador*6].setBackgroundColor(resources.getColor(R.color.green))
                         acierto++
-                    }else if(palabra.contains(letra)){
+                    }else if(aumentar&&letra!=null&&palabra.contains(letra!!)){
                         listaLetras[i+contador*6].setBackgroundColor(resources.getColor(R.color.amarillo))
                     }
-                    listaLetras[i+contador*6].isFocusable=false
+
                 }
+                for (i in 0..5)
+                    if (aumentar){
+                        listaLetras[i+contador*6].focusable=View.NOT_FOCUSABLE
+                    }
             }
             if (aumentar)
                 contador++
 
             if((contador)*6<listaLetras.size&&acierto!=6) {
                 for (i in (6 * contador) until 6 * (contador + 1)) {
+                    if(listaLetras.get(i).visibility==View.INVISIBLE)
                     listaLetras.get(i).visibility = View.VISIBLE
                 }
             }else if(acierto==6){
@@ -89,15 +102,17 @@ class MainActivity : AppCompatActivity() {
             aumentar=true
             contador=0
             acierto=0
-            for (i in listaLetras){
-                i.isFocusable=true
-                if(listaLetras.indexOf(i)>5)
-                    i.visibility= View.INVISIBLE
-                if(i.text.isNotEmpty())
-                    i.setText("")
-                i.setBackgroundColor(resources.getColor(R.color.grey_light))
+            letra=null
+            letraPalabra=null
+            for (i in 0 until listaLetras.size){
+                listaLetras[i].isFocusableInTouchMode=true
+                if(i>5)
+                    listaLetras[i].visibility= View.INVISIBLE
+                if(listaLetras[i].text.isNotEmpty())
+                    listaLetras[i].text.clear()
+                listaLetras[i].setBackgroundColor(resources.getColor(R.color.grey_light))
             }
-
+            listaLetras[0].isFocusedByDefault
             palabra=palabras.shuffled().first().uppercase()
             binding.button9.visibility=View.VISIBLE
             binding.resetButton.visibility=View.INVISIBLE
