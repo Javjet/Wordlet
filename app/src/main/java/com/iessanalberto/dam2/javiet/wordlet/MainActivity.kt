@@ -1,5 +1,6 @@
 package com.iessanalberto.dam2.javiet.wordlet
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.graphics.Color.green
 import android.graphics.ColorFilter
@@ -16,6 +17,7 @@ import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
+    @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding=ActivityMainBinding.inflate(layoutInflater)
@@ -89,14 +91,14 @@ class MainActivity : AppCompatActivity() {
                 binding.resetButton.visibility=View.VISIBLE
                 binding.resultado.text="Feliciadades, Acertaste!"
                 binding.resultado.visibility=View.VISIBLE
-            }
+            }else if (contador>=6&&acierto<6){
+                    binding.button9.visibility=View.INVISIBLE
+                    binding.resetButton.visibility=View.VISIBLE
+                    binding.resultado.text="No, has acertado!"
+                    binding.resultado.visibility=View.VISIBLE
+                }
         }
-        if (contador>=6&&acierto<6){
-            binding.button9.visibility=View.INVISIBLE
-            binding.resetButton.visibility=View.VISIBLE
-            binding.resultado.text="No, has acertado!"
-            binding.resultado.visibility=View.VISIBLE
-        }
+
 
         binding.resetButton.setOnClickListener(){
             aumentar=true
